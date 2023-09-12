@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NabilaLiliaTP1';
+
+  color : string ="white";
+  public changeColor(newColor:string){
+    console.log(newColor);
+    this.color = newColor;
+  }
 }
