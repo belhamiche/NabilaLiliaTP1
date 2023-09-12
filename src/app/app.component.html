@@ -1,5 +1,6 @@
 <app-header> </app-header>
+  <div [ngClass]="color">
+    <app-carree (event)="changeColor($event)"> </app-carree>
+  </div>
 
-
-  <app-carree (event)="changeColor($event)"> </app-carree>
 <app-footer></app-footer>
